@@ -1,0 +1,37 @@
+<!--Author: Alexander May
+    Last Modified: 10/4/2024-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Orbitron">
+    <title>Cash Register App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cash Register App</h1>
+    </header>
+    <main>
+      <div id="change-due"></div>
+      <div id="input-area">
+        <label for="cash">Enter cash from customer:</label>
+        <input id="cash" type="number">
+        <button id="purchase-btn" aria-label="Press to purchase">Purchase</button>
+      </div>
+      <section id="cash-register">
+        <div id="pop-up-display">
+          <div id="total" aria-label="Amount owed">Total: <span id="total-span"></span></div>
+        </div>
+        <div id="display-mount"></div>
+        <div id="register-main">
+          <div id="register-change"><strong>Change In Drawer:</strong></div>
+        </div>
+        <div id="register-drawer"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

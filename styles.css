@@ -1,0 +1,146 @@
+/* Author: Alexander May 
+    Last Modified: 10/4/2024 */
+
+:root {
+    --body-background: #054fb9;
+    --font-color-1: white;
+    --font-color-2: #1fde29;
+    --font-1: Roboto, sans-serif;
+    --font-2: Orbitron, sans-serif;
+    --register-color: #b3c7f7;
+  }
+  
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    font-family: var(--font-1);
+    background: var(--body-background);
+  }
+  
+  header {
+    color: var(--font-color-1);
+    font-size: 1.6em;
+    text-align: center;
+    position: relative;
+    top: 100px;
+  }
+  
+  main {
+    position: relative;
+    top: 100px;
+  }
+  
+  #change-due {
+    color: var(--font-color-1);
+    height: 150px;
+    max-width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    display: none;
+    padding: 5px;
+  }
+  
+  #input-area {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    max-width: 300px;
+  }
+  
+  label {
+    font-size: 1.2em;
+    color: var(--font-color-1);
+  }
+  
+  input {
+    height: 30px;
+    font-family: var(--font-1);
+    font-size: 1.3em;
+    border-radius: 2px;
+  }
+  
+  button {
+    height: 30px;
+    width: 80px;
+    font-family: var(--font-1);
+    font-size: 0.9em;
+    font-weight: bold;
+    background: #feac32;
+    background-image: linear-gradient(90deg, #e36939,#e09929);
+    border: 3px solid #e09929;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    opacity: 85%;
+  }
+  
+  section {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+  }
+  
+  #pop-up-display {
+    background: var(--register-color);
+    height: 70px;
+    width: 180px; 
+  }
+  
+  #total {
+    background: black;
+    height: 60px;
+    width: 160px;
+    margin: 2px auto;
+    padding: 10px;
+    color: #1fde29;
+    font-family: var(--font-2);
+    font-size: 1.2em;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  #display-mount {
+    background: var(--register-color);
+    height: 40px;
+    width: 50px;
+    margin-left: 15%;
+  }
+  
+  #register-main {
+    background: var(--register-color);
+    height: 300px;
+    border-radius: 15% 15% 0 0;
+  }
+  
+  #register-change {
+    background: white;
+    position: relative;
+    height: 250px;
+    width: 200px;
+    margin: auto;
+    top: 10%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #register-drawer {
+    background: var(--register-color);
+    margin-top: 5px;
+    height: 50px;
+  }
+  
+  
+  
